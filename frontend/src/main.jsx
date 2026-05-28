@@ -7,7 +7,7 @@ import {createRoot} from "react-dom/client";
 import {PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, LineChart, Line, CartesianGrid, ResponsiveContainer, Legend} from "recharts";
 import "./style.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://exam-malpractice-backend-roky.onrender.com";
 const WARNING_COOLDOWN_MS = 2500;
 const DEPTS = ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL", "AIML", "DS"];
 
